@@ -1,0 +1,423 @@
+<div  class="floating-form">
+    <div class="col-md-9">
+
+        <div class="content-box">
+            <h3 class="profile-page-title text-center">UPDATE YOUR PROFILE</h3>
+            <p style="color:green;text-align: center;">
+
+            </p>
+            <form 
+                enctype="multipart/form-data">
+                <div class="amrutha_modal_body_grid">
+                    <span>Name:</span>
+                    <input type="text" name="name" placeholder="Name" value="upedar">
+                </div>
+                <div class="amrutha_modal_body_grid">
+                    <span>Surename:</span>
+                    <input type="text" name="surname" value="banda" placeholder="Surename">
+                </div>
+                <div class="amrutha_modal_body_grid">
+                    <span>Profile Photo:</span>
+                    <input type="file" id="profile_photo" name="profile_photo">
+                    <input type="hidden" name="old_photo" value="">
+                </div>
+                <div class="amrutha_modal_body_grid">
+                    <span>Gothram:</span>
+                    <input type="text" name="gothram" value="efewf" placeholder="Gothram">
+                </div>
+                <div class="amrutha_modal_body_grid">
+                    <span>Gattu:</span>
+                    <select name="gattu" class="formlistbox frm-field">
+                        <option value="">Select</option>
+                        <option value="1" selected=""> 1</option>
+                        <option value="2"> 2</option>
+                        <option value="3"> 3</option>
+                        <option value="4"> 4</option>
+                        <option value="5"> 5</option>
+                        <option value="6"> 6</option>
+                        <option value="7"> 7</option>
+                        <option value="8"> 8</option>
+                        <option value="9"> 9</option>
+
+                    </select>
+                </div>
+                <div class="amrutha_modal_body_grid">
+                    <span>Time Of Birth:</span>
+                    <input class="date" name="time_birth" value="10:00" id="durationExample" runat="server" type="time">
+                </div>
+                <div class="amrutha_modal_body_grid">
+                    <span>Birth AM/PM:</span>
+                    <select name="birth_am_pm" class="formlistbox frm-field">
+                        <option value="">Select</option>
+                        <option value="AM" selected="">AM</option>
+                        <option value="PM">PM</option>
+                    </select>
+                </div>
+                <div class="amrutha_modal_body_grid">
+                    <span>Raasi:</span>
+                    <select name="raasi" class="formlistbox frm-field">
+                        <option value="">Select Rassi</option>
+                        <option value="మేష రాశి">మేష రాశి</option>
+                        <option value="కుంభ రాశి">కుంభ రాశి</option>
+                        <option value="కర్కాటక రాశి">కర్కాటక రాశి</option>
+                        <option value="మకర రాశి" selected="">మకర రాశి</option>
+                        <option value="మిధున రాశి">మిధున రాశి</option>
+                        <option value="సింహ రాశి">సింహ రాశి</option>
+                        <option value="తులా రాశి">తులా రాశి</option>
+                        <option value="మీన రాశి">మీన రాశి </option>
+                        <option value="ధనస్సు రాశి"> ధనస్సు రాశి </option>
+                        <option value="వృశ్చిక రాశి">వృశ్చిక రాశి </option>
+                        <option value="వృషభ రాశి">వృషభ రాశి</option>
+                        <option value="కన్యారాశి"> కన్యారాశి</option>
+                    </select>
+                </div>
+                <div class="amrutha_modal_body_grid">
+                    <span>Star:</span>
+                    <select name="star" class="formlistbox frm-field">
+                        <option value="">Select</option>
+                        <option value="అశ్విని">అశ్విని</option>
+                        <option value="భరణి">భరణి</option>
+                        <option value="కృత్తిక">కృత్తిక</option>
+                        <option value="రోహిణి">రోహిణి</option>
+                        <option value="మృగశిర">మృగశిర</option>
+                        <option value="ఆరుద్ర">ఆరుద్ర </option>
+                        <option value="పునర్వసు">పునర్వసు</option>
+                        <option value="పుష్యమి" selected="">పుష్యమి</option>
+                        <option value="ఆశ్లేష">ఆశ్లేష</option>
+                        <option value="మఖ">మఖ</option>
+                        <option value="పుబ్బ">పుబ్బ</option>
+                        <option value="ఉత్తర">ఉత్తర</option>
+                        <option value="హస్త"> హస్త </option>
+                        <option value="చిత్త">చిత్త</option>
+                        <option value="స్వాతి">స్వాతి</option>
+                        <option value="విశాఖ">విశాఖ </option>
+                        <option value="అనూరాధ">అనూరాధ</option>
+                        <option value="జ్యేష్ఠ">జ్యేష్ఠ</option>
+                        <option value="మూల">మూల </option>
+                        <option value="పూర్వాషాఢ">పూర్వాషాఢ</option>
+                        <option value="ఉత్తరాషాఢ">ఉత్తరాషాఢ </option>
+                        <option value="శ్రవణం">శ్రవణం </option>
+                        <option value="ధనిష్ట">ధనిష్ట </option>
+                        <option value="శతభిషం">శతభిషం </option>
+                        <option value="పూర్వాభాద్ర">పూర్వాభాద్ర </option>
+                        <option value="ఉత్తరాభాద్ర రేవతి">ఉత్తరాభాద్ర రేవతి </option>
+                    </select>
+                </div>
+                <div class="amrutha_modal_body_grid">
+                    <span>Physical Status:</span>
+                    <select name="physical_status" class="formlistbox frm-field">
+                        <option value="">Select</option>
+                        <option value="Normal" selected="">Normal</option>
+                        <option value="Physically challenged">Physically challenged</option>
+                    </select>
+                </div>
+                <div class="amrutha_modal_body_grid">
+                    <span>Height:</span>
+                    <input type="text" name="height" value="5.6 feet" placeholder="Height" required="">
+
+                </div>
+                <div class="amrutha_modal_body_grid">
+                    <span>Weight:</span>
+                    <select name="weight" class="formlistbox frm-field">
+                        <option value="">Select Weight</option>
+                        <option value="42 kgs">42 kgs</option>
+                        <option value="43 kgs">43 kgs</option>
+                        <option value="44 kgs">44 kgs</option>
+                        <option value="45 kgs">45 kgs</option>
+                        <option value="46 kgs">46 kgs</option>
+                        <option value="47 kgs">47 kgs</option>
+                        <option value="48 kgs">48 kgs</option>
+                        <option value="49 kgs">49 kgs</option>
+                        <option value="50 kgs">50 kgs</option>
+                        <option value="51 kgs">51 kgs</option>
+                        <option value="52 kgs">52 kgs</option>
+                        <option value="53 kgs">53 kgs</option>
+                        <option value="54 kgs">54 kgs</option>
+                        <option value="55 kgs">55 kgs</option>
+                        <option value="56 kgs">56 kgs</option>
+                        <option value="57 kgs">57 kgs</option>
+                        <option value="58 kgs" selected="">58 kgs</option>
+                        <option value="59 kgs">59 kgs</option>
+                        <option value="60 kgs">60 kgs</option>
+                        <option value="61 kgs">61 kgs</option>
+                        <option value="62 kgs">62 kgs</option>
+                        <option value="63 kgs">63 kgs</option>
+                        <option value="64 kgs">64 kgs</option>
+                        <option value="65 kgs">65 kgs</option>
+                        <option value="66 kgs">66 kgs</option>
+                        <option value="67 kgs">67 kgs</option>
+                        <option value="68 kgs">68 kgs</option>
+                        <option value="69 kgs">69 kgs</option>
+                        <option value="70 kgs">70 kgs</option>
+                        <option value="71 kgs">71 kgs</option>
+                        <option value="72 kgs">72 kgs</option>
+                        <option value="73 kgs">73 kgs</option>
+                        <option value="74 kgs">74 kgs</option>
+                        <option value="75 kgs">75 kgs</option>
+                        <option value="76 kgs">76 kgs</option>
+                        <option value="77 kgs">77 kgs</option>
+                        <option value="78 kgs">78 kgs</option>
+                        <option value="79 kgs">79 kgs</option>
+                        <option value="80 kgs">80 kgs</option>
+                        <option value="81 kgs">81 kgs</option>
+                        <option value="82 kgs">82 kgs</option>
+                        <option value="83 kgs">83 kgs</option>
+                        <option value="84 kgs">84 kgs</option>
+                        <option value="85 kgs">85 kgs</option>
+                        <option value="86 kgs">86 kgs</option>
+                        <option value="87 kgs">87 kgs</option>
+                        <option value="88 kgs">88 kgs</option>
+                        <option value="89 kgs">89 kgs</option>
+                        <option value="90 kgs">90 kgs</option>
+                        <option value="91 kgs">91 kgs</option>
+                        <option value="92 kgs">92 kgs</option>
+                        <option value="93 kgs">93 kgs</option>
+                        <option value="94 kgs">94 kgs</option>
+                        <option value="95 kgs">95 kgs</option>
+                        <option value="96 kgs">96 kgs</option>
+                        <option value="97 kgs">97 kgs</option>
+                        <option value="98 kgs">98 kgs</option>
+                        <option value="99 kgs">99 kgs</option>
+                        <option value="100 kgs">100 kgs</option>
+                        <option value="101 kgs">101 kgs</option>
+                        <option value="102 kgs">102 kgs</option>
+                        <option value="103 kgs">103 kgs</option>
+                        <option value="104 kgs">104 kgs</option>
+                        <option value="105 kgs">105 kgs</option>
+                        <option value="106 kgs">106 kgs</option>
+                        <option value="107 kgs">107 kgs</option>
+                        <option value="108 kgs">108 kgs</option>
+                        <option value="109 kgs">109 kgs</option>
+                        <option value="110 kgs">110 kgs</option>
+                        <option value="111 kgs">111 kgs</option>
+                        <option value="112 kgs">112 kgs</option>
+                        <option value="113 kgs">113 kgs</option>
+                        <option value="114 kgs">114 kgs</option>
+                        <option value="115 kgs">115 kgs</option>
+                        <option value="116 kgs">116 kgs</option>
+                        <option value="117 kgs">117 kgs</option>
+                        <option value="118 kgs">118 kgs</option>
+                        <option value="119 kgs">119 kgs</option>
+                        <option value="120 kgs">120 kgs</option>
+                        <option value="121 kgs">121 kgs</option>
+                        <option value="122 kgs">122 kgs</option>
+                        <option value="123 kgs">123 kgs</option>
+                        <option value="124 kgs">124 kgs</option>
+                        <option value="125 kgs">125 kgs</option>
+                        <option value="126 kgs">126 kgs</option>
+                        <option value="127 kgs">127 kgs</option>
+                        <option value="128 kgs">128 kgs</option>
+                        <option value="129 kgs">129 kgs</option>
+                        <option value="130 kgs">130 kgs</option>
+                        <option value="131 kgs">131 kgs</option>
+                        <option value="132 kgs">132 kgs</option>
+                        <option value="133 kgs">133 kgs</option>
+                        <option value="134 kgs">134 kgs</option>
+                        <option value="135 kgs">135 kgs</option>
+                        <option value="136 kgs">136 kgs</option>
+                        <option value="137 kgs">137 kgs</option>
+                        <option value="138 kgs">138 kgs</option>
+                        <option value="139 kgs">139 kgs</option>
+                        <option value="140 kgs">140 kgs</option>
+                        <option value="141 kgs">141 kgs</option>
+                        <option value="142 kgs">142 kgs</option>
+                        <option value="143 kgs">143 kgs</option>
+                        <option value="144 kgs">144 kgs</option>
+                        <option value="145 kgs">145 kgs</option>
+                        <option value="146 kgs">146 kgs</option>
+                        <option value="147 kgs">147 kgs</option>
+                        <option value="148 kgs">148 kgs</option>
+                        <option value="149 kgs">149 kgs</option>
+                        <option value="150 kgs">150 kgs</option>
+                        <option value="151 kgs">151 kgs</option>
+                    </select>
+                </div>
+                <div class="amrutha_modal_body_grid">
+                    <span>Marital Status:</span>
+                    <select name="marital_status" class="formlistbox frm-field">
+                        <option value="">Select Status</option>
+                        <option value="Never married">Never married</option>
+                        <option value="Widower">Widower</option>
+                        <option value="Divorced">Divorced</option>
+                    </select>
+                </div>
+                <div class="amrutha_modal_body_grid">
+                    <span>Religion:</span>
+                    <select name="religion" class="formlistbox frm-field">
+                        <option value="">Select</option>
+                        <option value="Hindu" selected="">Hindu</option>
+                        <option value="Christian">Christian</option>
+                    </select>
+                </div>
+
+                <div class="amrutha_modal_body_grid">
+                    <span>Sub Cast:</span>
+                    <select name="sub_cast" class="formlistbox frm-field">
+                        <option value="">Select</option>
+                        <option value="కోయ">కోయ</option>
+                        <option value="కొండ రెడ్డి">కొండ రెడ్డి</option>
+                        <option value="నాయక్ పోడు">నాయక్ పోడు</option>
+                        <option value="గోండు">గోండు</option>
+                        <option value="కొలాం">కొలాం</option>
+                        <option value="పర్దాన్"> పర్దాన్ </option>
+                        <option value="తోటి">తోటి</option>
+                        <option value="అంద్" selected="">అంద్</option>
+                        <option value="చెంచు">చెంచు</option>
+                    </select>
+                </div>
+                <div class="amrutha_modal_body_grid">
+                    <span>Education:</span>
+                    <input type="text" name="education" value="btech" placeholder="Education">
+                </div>
+                <div class="amrutha_modal_body_grid">
+                    <span>Employed in :</span>
+                    <select name="employed_in" class="formlistbox frm-field">
+                        <option value="">Select</option>
+                        <option value="Government job">Government job</option>
+                        <option value="Private job" selected="">Private job</option>
+                        <option value="Business">Business</option>
+                        <option value="Self employed">Self employed</option>
+                        <option value="Farmer">Farmer</option>
+                        <option value="Not working">Not working </option>
+                    </select>
+                </div>
+                <div class="amrutha_modal_body_grid">
+                    <span>Occupation:</span>
+                    <input type="text" name="occupation" value="fdwf" placeholder="Occupation">
+                </div>
+                <div class="amrutha_modal_body_grid">
+                    <span>Father's Occupation :</span>
+                    <select name="father_occupation" class="formlistbox frm-field">
+                        <option value="">Select</option>
+                        <option value="Government job">Government job</option>
+                        <option value="Private job" selected="">Private job</option>
+                        <option value="Business">Business</option>
+                        <option value="Self employed">Self employed</option>
+                        <option value="Farmer">Farmer</option>
+                        <option value="Not working">Not working </option>
+                        <option value="Retired">Retired </option>
+                    </select>
+                </div>
+
+                <div class="amrutha_modal_body_grid">
+                    <span>Mother's Occupation :</span>
+                    <select name="mother_occupation" class="formlistbox frm-field">
+                        <option value="">Select</option>
+                        <option value="House wife">House wife </option>
+                        <option value="Government job">Government job</option>
+                        <option value="Private job" selected="">Private job</option>
+                        <option value="Business">Business</option>
+                        <option value="Self employed">Self employed</option>
+                        <option value="Farmer">Farmer</option>
+                        <option value="Not working">Not working </option>
+                        <option value="Retired">Retired </option>
+                    </select>
+                </div>
+                <div class="amrutha_modal_body_grid">
+                    <span>Brothers : 1</span>
+                    <select name="brothers" class="formlistbox frm-field">
+                        <option value="">Select No of Brothers</option>
+                        <option value="None">None</option>
+                        <option value="1" selected=""> 1</option>
+                        <option value="2"> 2</option>
+                        <option value="3"> 3</option>
+                        <option value="4"> 4</option>
+                        <option value="5"> 5</option>
+                        <option value="6"> 6</option>
+                        <option value="7"> 7</option>
+                        <option value="8"> 8</option>
+                        <option value="9"> 9</option>
+                    </select>
+                </div>
+                <div class="amrutha_modal_body_grid">
+                    <span>Brother's married :</span>
+                    <select name="brothers_married" class="formlistbox frm-field">
+                        <option value="">Select </option>
+                        <option value="Yes" selected="">Yes</option>
+                        <option value="No">No</option>
+                    </select>
+                </div>
+                <div class="amrutha_modal_body_grid">
+                    <span>Sisters :</span>
+                    <select name="sisters" class="formlistbox frm-field">
+                        <option value="">Select No of sisters</option>
+                        <option value="None">None</option>
+                        <option value="1">1</option>
+                        <option value="2" selected="">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                </div>
+                <div class="amrutha_modal_body_grid">
+                    <span>Sister's married :</span>
+                    <select name="sisters_married" class="formlistbox frm-field">
+                        <option value="">Select </option>
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                    </select>
+                </div>
+                <div class="amrutha_modal_body_grid">
+                    <span>Language Know:</span>
+                    <input type="text" name="language" value="efewf" placeholder="Language">
+                </div>
+                <div class="amrutha_modal_body_grid">
+                    <span>Eating Habits:</span>
+                    <select name="eating_habits" class="formlistbox frm-field">
+                        <option value="">Select </option>
+                        <option value="Veg" selected="">Veg</option>
+                        <option value="Non Veg">Non Veg</option>
+                    </select>
+                </div>
+                <div class="amrutha_modal_body_grid">
+                    <span>Drinking Habits :</span>
+                    <select name="drinking_habits" class="formlistbox frm-field">
+                        <option value="">Select </option>
+                        <option value="Yes" selected="">Yes</option>
+                        <option value="No">No</option>
+                        <option value="Occasionally">Occasionally</option>
+                    </select>
+                </div>
+                <div class="amrutha_modal_body_grid">
+                    <span>Smoking Habits :</span>
+                    <select name="smoking_habits" class="formlistbox frm-field">
+                        <option value="">Select </option>
+                        <option value="Yes" selected="">Yes</option>
+                        <option value="No">No</option>
+                    </select>
+                </div>
+                <div class="amrutha_modal_body_grid">
+                    <span>State :</span>
+                    <select name="state" class="formlistbox frm-field">
+                        <option value="">Select </option>
+                        <option value="Telangana" selected="">Telangana</option>
+                        <option value="Andhra Pradesh">Andhra Pradesh</option>
+                    </select>
+                </div>
+                <div class="amrutha_modal_body_grid">
+                    <span>District:</span>
+                    <input type="text" name="district" value="efsdfsdf" placeholder="District">
+                </div>
+                <div class="amrutha_modal_body_grid">
+                    <span>Mandal:</span>
+                    <input type="text" name="mandal" value="fsfdfdfsd" placeholder="Mandal">
+                </div>
+                <div class="amrutha_modal_body_grid">
+                    <span>Village or Area:</span>
+                    <input type="text" name="village_area" value="dfsdfdsds" placeholder="Village or Area">
+                </div>
+                <div class="amrutha_modal_body_grid">
+                    <span style="margin-top:15px;">About your self (or) Daughter, Son,
+                        Ur bro, Ur sis, Ur friend.: </span>
+                    <textarea name="about_your_self" style="width:70%" rows="4">sfsdfsdfsf</textarea>
+                </div>
+                <input type="submit" class="registerbtn btn btn-primary" style="border-radius:0;"
+                        value="Profile Update">
+            </form>
+        </div>
+    </div>
+</div>

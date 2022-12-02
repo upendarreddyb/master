@@ -1,0 +1,48 @@
+<div class="row">
+
+    <div *ngFor="let p of userprofiles.message">
+    </div>
+    <div class="col-md-6 col-xl-4 mb-5" *ngFor="let p of userprofiles.message">
+        <div id="login-container">
+            <div>
+                <img class="profile-img" src="https://adivasipellipandiri.com/assets/upload/{{p.profile_photo}}" alt="">
+            </div>
+            <h1>
+                {{p.name}}
+            </h1>
+            <div class="description">
+                <div>
+                    Adderss: {{p.state}}, {{p.district}},{{p.mandal}},{{p.village_area}}
+                </div>
+                <div>
+                    height: {{p.height}}
+                </div>
+                <div>
+                    Sub Cate: {{p.sub_cast}}
+                </div>
+                <div>
+                    Education: {{p.education}}
+                </div>
+                <div>
+                    Ocuupation: {{p.occupation}}
+                </div>
+            </div>
+            <div class="social">
+                <!-- <a>GitHub</a>
+                <a>Twitter</a>
+                <a>LinkedIn</a> -->
+            </div>
+            <button>View More</button>
+            <footer>
+                <!-- <div class="likes">
+                    <p><i class='fa fa-heart'></i></p>
+                    <p>1.5K</p>
+                </div>
+                <div class="projects">
+                    <p>Projects</p>
+                    <p>154</p>
+                </div> -->
+            </footer>
+        </div>
+    </div> <!-- end col-->
+</div>
